@@ -1,0 +1,60 @@
+.container {
+  max-width: 900px;
+}
+
+.quote {
+  max-width: 500px;
+
+  .text {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  .author {
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
+
+.section {
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+  font-size: 17px;
+  padding-top: 40px;
+
+  .section-title {
+    margin-bottom: 70px;
+  }
+}
+
+.portfolio {
+  margin-bottom: 100px;
+
+  .project-title {
+    font-weight: 700;
+  }
+
+  .project-subtitle {
+    padding-top: 5px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .project-details {
+    width: 400px;
+  }
+
+  img {
+    width: 425px;
+  }
+}
+
+button {
+  font-size: 20px;
+  transition: transform 0.1s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s;
+  }
+}

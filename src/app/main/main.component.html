@@ -1,0 +1,190 @@
+<div class="container">
+  <div class="row my-5">
+    <div class="col">
+      <div class="my-5 d-flex flex-column align-items-center">
+        <div class="quote">
+          <div class="text">
+            “Things get done only if the data we gather can inform and inspire
+            those in a position to make [a] difference.”
+          </div>
+          <div class="author">– Mike Schmoker</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about" class="about section row">
+    <div class="col">
+      <div class="section-title">
+        <span class="h2 border-bottom">About Me</span>
+      </div>
+
+      <div class="mt-4 mb-3">
+        Hello, my name is Ki Min and I am a data scientist. I hold a Bachelor's
+        degree in science (BSc. Cell Biology, University of British Columbia,
+        Vancouver, BC) and Master's degree in science (MSc. Business Analytics,
+        Seattle University, Seattle, WA).
+      </div>
+      <div class="mb-3">
+        After working as a researcher for years, I became extremely intrigued
+        with data science. Data science is playing a significant role in every
+        field. If it is used properly, it can lead to good decision-making.
+        Finding patterns and stories hidden in data nobody else sees are
+        extremely fascinating to me.
+      </div>
+      <div class="mb-3">
+        I am currently working as a research data analysis assistant at Seattle
+        University College of Nursing. As a member of the research team, I
+        investigate risk factors for diabetes from population health survey data
+        of California by data visualization and predictive model construction
+        using machine learning algorithms.
+      </div>
+      <div class="mb-4">
+        Do you want to work together? Please reach out to me by e-mail.
+      </div>
+      <img
+        class="mb-5"
+        src="assets/signature.webp"
+        alt="signature"
+        width="115"
+      />
+    </div>
+  </section>
+
+  <section id="portfolio" class="section row">
+    <div class="col">
+      <div class="section-title">
+        <span class="h2 border-bottom">Portfolio</span>
+      </div>
+
+      <div
+        class="portfolio d-flex justify-content-between align-items-center mt-4"
+      >
+        <img src="assets/eda.png" alt="eda" />
+
+        <div class="project-details">
+          <h5 class="mb-3">
+            <span class="project-title">EDA</span>
+            <span class="project-subtitle">
+              House sales of King County, USA
+            </span>
+          </h5>
+          <div class="mb-3">
+            Waterfront, number of bathrooms, number of bedrooms, and grade of
+            house are the major factors effect on house value while other
+            factors have limited impact on housing price. Additionally, houses
+            in the popular region with high sales record have slightly better
+            grade. when housing supply to King County, such factors must be
+            primarily considered to meet the housing market demand of the city.
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio d-flex justify-content-between align-items-center">
+        <div class="project-details">
+          <h5 class="mb-3">
+            <span class="project-title">Data Visualization</span>
+            <span class="project-subtitle">
+              Crime rate in Vancouver & consumer behavior on toy sales
+            </span>
+          </h5>
+
+          <div class="mb-3">
+            The two examples of data visualization below are about toy sales
+            trend and crime rate tendency in Vancouver. Each example shows the
+            most important trends and figures.
+          </div>
+        </div>
+        <img src="assets/visualization.png" alt="visualization" />
+      </div>
+
+      <div class="portfolio d-flex justify-content-between align-items-center">
+        <div
+          class="d-flex flex-column align-items-center jusitfy-content-center"
+        >
+          <img class="pb-4" src="assets/ml-matrix.png" alt="ml-matrix" />
+          <img src="assets/ml-curve.png" alt="ml-curve" />
+        </div>
+
+        <div class="project-details">
+          <h5 class="mb-3">
+            <span class="project-title">Modeling</span>
+            <span class="project-subtitle"
+              >ML algorithm application – insurance policy holder’s response
+              prediction</span
+            >
+          </h5>
+
+          <div class="mb-3">
+            The project purpose is to build a prediction model and predict
+            whether the policyholders (customers) from past year will also be
+            interested in Vehicle Insurance provided by the company from given
+            information the preprocessed insurance dataset using machine
+            learning algorithms and evaluate the model performance.
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio d-flex justify-content-between align-items-center">
+        <div class="project-details">
+          <h5 class="mb-3">
+            <span class="project-title">Feature Selection</span>
+            <span class="project-subtitle">
+              Predict Hotel Booking Cancellation
+            </span>
+          </h5>
+
+          <div class="mb-3">
+            The data analysis reveals that there are certain characteristics
+            common in the booking cancellation cases. The random forest model
+            using the selected features in accordance with the data analysis
+            successfully predicts hotel booking cancellation at 73.8%.
+            Additionally, the most important features should be considered for
+            booking cancellation prediction are lead time prior to check-in date
+            and deposit type (whether non-refundable or not). Also, when number
+            of special requests and previous cancellation are 0 or low, booking
+            cancellation less likely to happen.
+          </div>
+        </div>
+        <img src="assets/importance.png" alt="importance" />
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section row">
+    <div class="col mb-5">
+      <div class="section-title text-center">
+        <span class="h2 border-bottom">Contact</span>
+      </div>
+
+      <div class="d-flex flex-column jusitfy-content-center align-items-center">
+        <div class="mb-5">
+          <a href="https://www.linkedin.com/in/ki-min-lee-1b5b39191">
+            <button class="btn btn-outline-dark mr-3" type="button">
+              <fa-icon [icon]="faLinkedin" size="lg"></fa-icon>
+              LinkedIn
+            </button>
+          </a>
+          <a href="https://github.com/kilee722">
+            <button class="btn btn-outline-dark mr-3" type="button">
+              <fa-icon [icon]="faGithub" size="lg"></fa-icon>
+              GitHub
+            </button>
+          </a>
+          <a href="assets/resume.pdf" download>
+            <button class="btn btn-outline-dark" type="button">
+              <fa-icon [icon]="faAddressCard" size="lg"></fa-icon>
+              Resume
+            </button>
+          </a>
+        </div>
+
+        <div>1617 East 37th, Vancouver, BC</div>
+        <div>
+          You can directly send a message at
+          <a href="mailto:k.lee.1ubc@gmail.com">k.lee.1ubc@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
