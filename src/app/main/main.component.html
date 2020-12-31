@@ -53,16 +53,13 @@
 
   <section id="portfolio" class="section row">
     <div class="col">
-      <div class="section-title">
+      <div class="section-title pb-4">
         <span class="h2 border-bottom">Portfolio</span>
       </div>
 
-      <div
-        class="portfolio d-flex justify-content-between align-items-center mt-4"
-      >
-        <img src="assets/eda.png" alt="eda" />
-
-        <div class="project-details">
+      <div class="row portfolio d-flex align-items-center">
+        <img class="col" src="assets/eda.png" alt="eda" />
+        <div class="col project-details">
           <h5 class="mb-3">
             <span class="project-title">EDA</span>
             <span class="project-subtitle">
@@ -80,41 +77,33 @@
         </div>
       </div>
 
-      <div class="portfolio d-flex justify-content-between align-items-center">
-        <div class="project-details">
+      <div class="row portfolio d-flex align-items-center">
+        <div class="col project-details">
           <h5 class="mb-3">
             <span class="project-title">Data Visualization</span>
             <span class="project-subtitle">
               Crime rate in Vancouver & consumer behavior on toy sales
             </span>
           </h5>
-
           <div class="mb-3">
             The two examples of data visualization below are about toy sales
             trend and crime rate tendency in Vancouver. Each example shows the
             most important trends and figures.
           </div>
         </div>
-        <img src="assets/visualization.png" alt="visualization" />
+        <img class="col" src="assets/visualization.png" alt="visualization" />
       </div>
 
-      <div class="portfolio d-flex justify-content-between align-items-center">
-        <div
-          class="d-flex flex-column align-items-center jusitfy-content-center"
-        >
-          <img class="pb-4" src="assets/ml-matrix.png" alt="ml-matrix" />
-          <img src="assets/ml-curve.png" alt="ml-curve" />
-        </div>
-
-        <div class="project-details">
+      <div class="row portfolio d-flex align-items-center">
+        <img class="col" src="assets/modeling.webp" alt="modeling" />
+        <div class="col project-details">
           <h5 class="mb-3">
             <span class="project-title">Modeling</span>
-            <span class="project-subtitle"
-              >ML algorithm application – insurance policy holder’s response
-              prediction</span
-            >
+            <span class="project-subtitle">
+              ML algorithm application – insurance policy holder’s response
+              prediction
+            </span>
           </h5>
-
           <div class="mb-3">
             The project purpose is to build a prediction model and predict
             whether the policyholders (customers) from past year will also be
@@ -125,15 +114,14 @@
         </div>
       </div>
 
-      <div class="portfolio d-flex justify-content-between align-items-center">
-        <div class="project-details">
+      <div class="row portfolio d-flex align-items-center">
+        <div class="col project-details">
           <h5 class="mb-3">
             <span class="project-title">Feature Selection</span>
             <span class="project-subtitle">
               Predict Hotel Booking Cancellation
             </span>
           </h5>
-
           <div class="mb-3">
             The data analysis reveals that there are certain characteristics
             common in the booking cancellation cases. The random forest model
@@ -146,7 +134,7 @@
             cancellation less likely to happen.
           </div>
         </div>
-        <img src="assets/importance.png" alt="importance" />
+        <img class="col" src="assets/importance.png" alt="importance" />
       </div>
     </div>
   </section>
@@ -157,16 +145,21 @@
         <span class="h2 border-bottom">Contact</span>
       </div>
 
-      <div class="d-flex flex-column jusitfy-content-center align-items-center">
+      <div
+        class="d-flex flex-column jusitfy-content-center align-items-center text-center"
+      >
         <div class="mb-5">
-          <a href="https://www.linkedin.com/in/ki-min-lee-1b5b39191">
-            <button class="btn btn-outline-dark mr-3" type="button">
+          <a
+            class="mr-2"
+            href="https://www.linkedin.com/in/ki-min-lee-1b5b39191"
+          >
+            <button class="btn btn-outline-dark" type="button">
               <fa-icon [icon]="faLinkedin" size="lg"></fa-icon>
               LinkedIn
             </button>
           </a>
-          <a href="https://github.com/kilee722">
-            <button class="btn btn-outline-dark mr-3" type="button">
+          <a class="mr-2" href="https://github.com/kilee722">
+            <button class="btn btn-outline-dark" type="button">
               <fa-icon [icon]="faGithub" size="lg"></fa-icon>
               GitHub
             </button>
