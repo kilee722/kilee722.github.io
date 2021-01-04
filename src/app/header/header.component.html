@@ -5,27 +5,19 @@
     <div class="name font-weight-bold font-italic">Ki Min Lee</div>
     <div class="title mb-3">Data Scientist</div>
     <div style="height: 60px">
-      <button
-        class="btn btn-outline-dark mr-3"
-        type="button"
-        (click)="onClick('about')"
-      >
-        About Me
-      </button>
-      <button
-        type="button"
-        class="btn btn-outline-dark mr-3"
-        (click)="onClick('portfolio')"
-      >
-        Portfolio
-      </button>
-      <button
-        type="button"
-        class="btn btn-outline-dark"
-        (click)="onClick('contact')"
-      >
-        Contact
-      </button>
+      <a routerLink fragment="about">
+        <button class="btn btn-outline-dark mr-3" type="button">
+          About Me
+        </button>
+      </a>
+      <a routerLink fragment="portfolio">
+        <button type="button" class="btn btn-outline-dark mr-3">
+          Portfolio
+        </button>
+      </a>
+      <a routerLink fragment="contact">
+        <button type="button" class="btn btn-outline-dark">Contact</button>
+      </a>
     </div>
   </div>
 </nav>
